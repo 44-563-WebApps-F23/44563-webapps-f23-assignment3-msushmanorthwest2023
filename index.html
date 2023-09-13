@@ -35,32 +35,51 @@
     <hr>
     <h2>Four kinds of sports recommendation</h2>
     <table border="1">
-    <tr>
-        <th>Sport</th>
-        <th>Reason to Try</th>
-        <th>Weekly Time Commitment(hours)</th>
-    </tr>
-    <tr>
-        <td>Volley Ball</td>
-        <td>Your involvement in volleyball can improve your mood, reduce stress and encourage pride in your
-            accomplishments as a team member. The activity can also improve your self-confidence, self-esteem, your body
-            image and make you feel happier about life in general.</td>
-        <td>2-3 Hours</td>
-    </tr>
-    <tr>
-        <td>Cricket</td>
-        <td>There are many health benefits of playing cricket. Not only does it help you burn calories and strengthen
-            muscles, but it also improves your hand-eye coordination considerably. </td>
-        <td>3-4 Hours</td>
-    </tr>
-    <tr>
-        <td>Basket Ball</td>
-        <td>playing basketball on a regular basis improves coordination & speed, as well as improving strength &
-            cardiovascular health. Ball handling & dribbling also improve fine motor skills. Mental – basketball
-            requires & develops critical thinking & problem analysis skills.</td>
-        <td>2-3 Hours</td>
-    </tr>
+        <tr>
+            <th>Sport</th>
+            <th>Reason to Try</th>
+            <th>Weekly Time Commitment(hours)</th>
+        </tr>
+        <tr>
+            <td>Volley Ball</td>
+            <td>Your involvement in volleyball can improve your mood, reduce stress and encourage pride in your
+                accomplishments as a team member. The activity can also improve your self-confidence, self-esteem, your
+                body
+                image and make you feel happier about life in general.</td>
+            <td>2-3 Hours</td>
+        </tr>
+        <tr>
+            <td>Cricket</td>
+            <td>There are many health benefits of playing cricket. Not only does it help you burn calories and
+                strengthen
+                muscles, but it also improves your hand-eye coordination considerably. </td>
+            <td>3-4 Hours</td>
+        </tr>
+        <tr>
+            <td>Basket Ball</td>
+            <td>playing basketball on a regular basis improves coordination & speed, as well as improving strength &
+                cardiovascular health. Ball handling & dribbling also improve fine motor skills. Mental – basketball
+                requires & develops critical thinking & problem analysis skills.</td>
+            <td>2-3 Hours</td>
+        </tr>
     </table>
+    <hr>
+    <h2>Code Fencing</h2>
+    <p>Simple Auto-Playing Slideshows</p>
+    <a href="https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/#aa-jquery"></a>
+    <pre>
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function() { 
+          $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+        }, 3000);
+    </pre>
+    <a href="https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/">Simple auto-playing slide show</a>
 
 </body>
 
